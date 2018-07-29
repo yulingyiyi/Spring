@@ -18,4 +18,9 @@ public class DepartmentServiceImpl implements DepartmentService {
     public List<Department> queryAll() {
         return departmentMapper.selectAll();
     }
+
+    @Override
+    public boolean add(Department department) {
+        return departmentMapper.insert(department) == 1;
+    }
 }

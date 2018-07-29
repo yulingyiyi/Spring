@@ -10,4 +10,5 @@ public interface UserService {
     User queryById(int id);
     List<User> queryAll();
 
+
 }

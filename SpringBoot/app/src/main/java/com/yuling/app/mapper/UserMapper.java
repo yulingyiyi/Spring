@@ -10,6 +10,7 @@ public interface UserMapper {
      *
      * @mbg.generated Sun Jul 29 14:07:42 CST 2018
      */
+
     int deleteByPrimaryKey(Integer id);
 
     /**

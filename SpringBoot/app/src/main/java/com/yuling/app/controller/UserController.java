@@ -34,8 +34,8 @@ public class UserController {
         if (user.getId() > 0){
             map.getData().put("user",user);
         }else {
-            map.setMessage("查无此人");
-            map.setCode(10001);
+            map.setMsg("查无此人");
+            map.setStatus(10001);
         }
         System.out.print("11111111111111111111111");
         return map;
